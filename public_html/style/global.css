@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Madera W01 Bold";
+    font-family: "Madera Regular";
+    font-family: "Madera W01 Thin";
+    font-family: "Madera W01 Medium";
+    font-family: "Madera W01 Italic";
+    font-family: "Madera W01 Light";
+}
+
+header .navbar {
+    background-color: rgb(230, 67, 30) !important;
+    height: 100px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+footer {
+    background-color: rgb(230, 67, 30);
+    font-size: 1.3em;
+    padding: 30px 0 5px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer .endereco {
+    width: 40%;
+}
+
+footer .menu li {
+    list-style: none;
+}
+
+footer .endereco h1,
+footer .menu h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+footer p {
+    margin-top: 50px;
+    color: white;
+}
+
+footer .endereco p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+footer .box-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .box-footer img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar-nav {
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    header .navbar {
+        height: auto;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    footer .copy {
+        font-size: 0.4rem;
+        margin: 0;
+    }
+
+    footer .box-footer .menu {
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    footer .box-footer .menu li {
+        font-size: 0.6rem;
+    }
+
+    footer .endereco {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    footer .endereco h1,
+    footer .menu h1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    footer .endereco p {
+        padding: 0;
+        margin: 0;
+        font-size: 0.6rem;
+    }
+
+    footer .box-footer img {
+        width: 20%;
+        object-fit: contain;
+    }
+
+    #rodape-img {
+        display: none;
+    }
+}
