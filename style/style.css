@@ -80,6 +80,7 @@ color {
     justify-content: space-around;
     display: flex;
     align-items: center;
+    margin-bottom: 300px;
     margin-top: 200px;
 }
 
@@ -94,7 +95,7 @@ color {
 
 #second-sec .box img {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 10px;
 }
 
@@ -137,6 +138,7 @@ section.depoimentos h1 {
 .container-slider {
     overflow: hidden;
     padding: 40px 0;
+    max-width: 1600px;
 }
 
 .container-slider-single {
@@ -203,6 +205,56 @@ li.slick-active button {
     outline: none;
 }
 
+@media screen and (max-width: 1440px) {
+
+    section.depoimentos h1 {
+        font-size: 2rem;
+    }
+
+    .container-slider-single {
+       height: 40%;
+    }
+    
+    #second-sec .box {
+        margin-top: 400px;
+    }
+
+    .container-slider{
+        max-width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #second-sec .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-sec .box .txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-sec #left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section.depoimentos h1 {
+        font-size: 2rem;
+    }
+
+    .container-slider-single {
+       height: 40%;
+    }
+
+    .container-slider{
+        max-width: 1000px;
+    }
+}
 
 @media screen and (max-width: 860px) {
     #second-sec {
@@ -218,13 +270,16 @@ li.slick-active button {
         flex-direction: column-reverse;
     }
 
-    
     section.depoimentos h1 {
         font-size: 2rem;
     }
 
-    .container-slider {
-        width: 600px;
+    .container-slider-single {
+       height: 40%;
+    }
+
+    .container-slider{
+        width: 750px;
     }
 }
 
@@ -273,8 +328,7 @@ li.slick-active button {
 
     #second-sec .box img {
         width: 100%;
-        height: 500px;
-        border-radius: 10px;
+        height: inherit;
     }
 
     #second-sec #left {
@@ -303,4 +357,36 @@ li.slick-active button {
         width: 300px;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+
+    #first-sec .txt-second-top p {
+        font-size: 0.7rem;
+        width: 300px;
+    }
+
+    #second-sec .box img {
+        width: 100%;
+        height: inherit;
+    }
+
+    #second-sec .box h1 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0px;
+    }
+
+    #second-sec .box p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    section.depoimentos h1 {
+        font-size: 1.5rem;
+    }
+
+    #second-sec .box {
+        margin-top: 100px;
+    }
 }
