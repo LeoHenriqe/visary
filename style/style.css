@@ -220,7 +220,7 @@ li.slick-active button {
     }
 
     .container-slider{
-        max-width: 1400px;
+        max-width: 1200px;
     }
 }
 
@@ -313,6 +313,8 @@ li.slick-active button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     #second-sec .box .txt {

@@ -20,7 +20,7 @@ header .navbar {
 
 footer {
     background-color: rgb(230, 67, 30);
-    font-size: 1.3em;
+    font-size: 0.7rem;
     padding: 30px 0 5px 0;
 }
 
@@ -30,17 +30,19 @@ footer p {
 
 footer .endereco {
     width: 40%;
+    align-items: center;
+    display: flex;
 }
 
 footer .menu li {
     list-style: none;
 }
 
-footer .endereco h1,
-footer .menu h1 {
-    font-size: 2rem;
+footer .endereco h1{
+    font-size: 1.1rem;
     font-weight: 600;
     color: white;
+    width: 50%;
 }
 
 footer p {
@@ -57,6 +59,8 @@ footer .endereco p {
 footer .box-footer {
     display: flex;
     justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
 
 footer .box-footer img {
